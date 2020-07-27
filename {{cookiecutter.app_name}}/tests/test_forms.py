@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """Test forms."""
 
 from {{cookiecutter.app_name}}.public.forms import LoginForm
