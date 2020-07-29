@@ -230,3 +230,6 @@ Deployment by using [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cl
     ```
 
 {%- endif %}
+
+Copyright {% now 'local', '%Y' %} {{ cookiecutter.full_name }}
+

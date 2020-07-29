@@ -21,7 +21,8 @@
     "url": "git+https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.app_name}}.git"
   },
   "author": "{{cookiecutter.full_name}}",
-  "license": "MIT",
+  "license": "UNLICENSED",
+  "private": true,
   "engines": {
     "node": ">={{cookiecutter.node_version}}"
   },
