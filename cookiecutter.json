@@ -5,7 +5,7 @@
   "project_name": "My Flask App",
   "app_name": "{{cookiecutter.project_name.lower().replace('-', '_').replace(' ', '_')}}",
   "project_short_description": "A flasky app.",
-  "use_pipenv": ["no", "yes"],
+  "use_pipenv": ["yes", "no"],
   "python_version": ["3.8", "3.7"],
   "node_version": ["12", "10"]
 }

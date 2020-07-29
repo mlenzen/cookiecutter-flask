@@ -32,7 +32,7 @@ def log_module_name_warning(module_name, logger):
 
 
 def check_python_version():
-    if sys.version_info < 3.7:
+    if sys.version_info < (3, 7):
         major, minor, *_ = sys.version_info
         LOGGER.warning(
             "\nWARNING: You are running cookiecutter using Python "

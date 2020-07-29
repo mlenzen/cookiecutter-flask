@@ -6,4 +6,5 @@ github actions
 pytest fixture that rolls back after each test
 BaseModel
 tests need to be against Postgres
+hooks for isort, black, ...
 
