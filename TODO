@@ -1,0 +1,9 @@
+Configure my preferred linters
+standard packages
+init alembic
+.gitignore
+github actions
+pytest fixture that rolls back after each test
+BaseModel
+tests need to be against Postgres
+
