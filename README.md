@@ -2,9 +2,6 @@
 
 A Flask template for [cookiecutter](https://github.com/audreyr/cookiecutter). (Supports Python ≥ 3.6)
 
-[![Build Status](https://travis-ci.org/cookiecutter-flask/cookiecutter-flask.svg?branch=master)](https://travis-ci.org/cookiecutter-flask/cookiecutter-flask)
-[![CalVer](https://img.shields.io/badge/calver-YY.MINOR.MICRO-22bfda.svg)](http://calver.org)
-
 ## Use it now
 
 ### Docker **(This is the preferred method for creating a new project)**
@@ -21,7 +18,7 @@ $ ./cookiecutter-docker.sh --help
 Options:
     -b, --build    Build Docker image before running cookiecutter
     -t, --template Specify custom cookiecutter template via a URI to a git repo
-                    e.g. https://github.com/cookiecutter-flask/cookiecutter-flask.git
+                    e.g. https://github.com/mlenzen/cookiecutter-flask.git
                     Defaults to template in current working directory
     -h, --help     Show this message and exit
 ```
@@ -32,14 +29,14 @@ If using standard instructions, Python ≥ 3.6 is required. A virtual environmen
 
 ```bash
 pip3 install cookiecutter
-cookiecutter https://github.com/cookiecutter-flask/cookiecutter-flask.git
+cookiecutter https://github.com/mlenzen/cookiecutter-flask.git
 ```
 
 You will be asked about your basic info (name, project name, app name, etc.). This info will be used in your new project.
 
 ## Configure and Run
 
-After you have generated the project code, a few more steps must be taken before your new app will run. The README of the generated project shows you how to configure and run the application. (You can see the [template README here](https://github.com/cookiecutter-flask/cookiecutter-flask/blob/master/%7B%7Bcookiecutter.app_name%7D%7D/README.md)).
+After you have generated the project code, a few more steps must be taken before your new app will run. The README of the generated project shows you how to configure and run the application. (You can see the [template README here](https://github.com/mlenzen/cookiecutter-flask/blob/master/%7B%7Bcookiecutter.app_name%7D%7D/README.md)).
 
 ## Features
 
@@ -50,7 +47,6 @@ After you have generated the project code, a few more steps must be taken before
 - Flask-WTForms with login and registration forms
 - Flask-Login for authentication
 - Flask-Bcrypt for password hashing
-- Procfile for deploying to a PaaS (e.g. Heroku)
 - pytest and Factory-Boy for testing (example tests included)
 - Flask's Click CLI configured with simple commands
 - CSS and JS minification using webpack
